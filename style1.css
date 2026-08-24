@@ -1,0 +1,32 @@
+
+
+/* <!-- universal Selecter --> */
+*{
+    margin: 0%;
+}
+ 
+     /* <!-- Id selecter --> */
+#heading{
+    color: aquamarine;
+    background-color: burlywood;
+}
+ /* <!-- type seleter --> */
+h4{
+    color: hotpink;
+}
+/* <!-- descendant selecter --> */
+div p {
+    color: red;
+}
+ /* <!-- child selecter --> */
+section  p{
+    color:gold;
+}
+ /* <!-- Adjacent sibling Selecter -- */
+h2 +p{
+    background-color: lightgray;
+}
+ /* <!-- Gerenal Sibling selecte --> */
+h5 ~p{
+    color: blueviolet;
+}
